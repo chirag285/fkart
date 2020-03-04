@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
+    <script>
+            var isToggle = false;
+            function togglSideBar(){
+                //document.getElementById("slidbar").style="display:block";
+                if(isToggle == false){                
+                    document.getElementById("slidebarid").classList.add("sideMedia");
+                    isToggle = true
+                }else{
+                    isToggle = false;            
+                  document.getElementById("slidebarid").classList.remove("sideMedia");
+                }
+            }
+        </script>
+</head>
+
+<body class="body2">
+    <header class="header">
+
+        <div class="sidebar-btn">
+            <img src="assets/images/options.png" style="width: auto; height:100%;" class="slide-btn" onclick="togglSideBar()">
+</div>
+
+        <div class="logo">
+            <img src="assets/images/flipkart.png" height="30px" width="100px">
+        </div>
+        <div class="navbar">
+            <nav class="nav" style="margin-top: -13px;">
+                <ul>
+                    <li>Chirag</li>
+                    <li>More</li>
+                    <li>Cart</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slidebar" id="slidebarid">
+            <ul class="sidebar-items">
+                <li>Home </li>
+                <li>Men's Clothing</li>
+                <li>Women's Clothing</li>
+                <li>Electronics</li>
+                <li>Furniture Items</li>
+            </ul>
+            
+    </div>
+
+    <div class="opsn-bar">
+        <div class="obitems">
+            <ul>
+                <li>Electronics</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Home & Furniture</li>
+                <li>Offer Zone</li>
+                <li>Electronics</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Home & Furniture</li>
+                <li>Offer Zone</li>
+                <li>Men</li>
+                <li>Women</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="item_image2">
+            <img class="item_main_image" src="assets/images/P21.jpeg">
+
+            <div class="side-images">
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P21.jpeg">
+                </div>
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P22.jpeg">
+                </div>
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P23.jpeg">
+                </div>
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P24.jpeg">
+                </div>
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P25.jpeg">
+                </div>
+                <div class="side-image">
+                    <img class="side-imagesq" src="assets/images/P26.jpeg">
+                </div>
+            </div>
+            <button type="button" class="btn ATC">
+                ADD TO CART
+            </button>
+            <button type="button" class="btn BN">
+                BUY NOW
+            </button>
+        </div>
+        <div class="item-right-side">
+            <div class="location">
+                <p>Home > Clothing > Men's Clothing > Jeans > Blue Jeans </p>
+            </div>
+            <div class="brand">
+                <p>Levis</p>
+            </div>
+            <div class="item-type-detail">
+                <p>Slim Fit Blue Jeans</p>
+            </div>
+            <div class="price-head">
+                <p>Special Price</p>
+            </div>
+            <div class="price">
+                <p>₹1999</p>
+            </div>
+            <div class="MRP">
+                <p><strike>2999 </strike></p>
+            </div>
+            <div class="off">
+                <p>33% off</p>
+            </div>
+            <div class="OR-pay">
+                <p> Or pay 1800 + 199 Plus Points</p>
+            </div>
+            <div class="ratings">
+                <p>3.4 216 ratings and 24 reviews</p>
+            </div>
+            <div class="offers">
+                <ul>
+                    <li>Special PriceGet extra 20% off (price inclusive of discount)T&C </li>
+                    <li> Bank Offer10% off* with Axis Bank Buzz Credit CardT&C </li>
+                    <li> Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C </li>
+                    <li> Bank OfferExtra 5% Off on Prepaid OrdersT&C </li>
+                </ul>
+            </div>
+            <div class="deliver-to-address">
+                <p>Deliver to</p>
+            </div>
+
+            <div class="del-input">
+                <input type="text">
+            </div>
+            <div class="del-time">Dilivery in 2-3 days |</div>
+            <div style="color: green"> Free </div>
+            <div class="v-d">View Details</div>
+        </div>
+    </div>
+</body>
+
+</html>

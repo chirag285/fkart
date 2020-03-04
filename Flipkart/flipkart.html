@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    <title> Flipkart </title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
+    <script>
+        var isToggle = false;
+        function togglSideBar(){
+            //document.getElementById("slidbar").style="display:block";
+            if(isToggle == false){                
+                document.getElementById("slidebarid").classList.add("sideMedia");
+                isToggle = true
+            }else{
+                isToggle = false;            
+              document.getElementById("slidebarid").classList.remove("sideMedia");
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <header class="header">
+
+        <div class="sidebar-btn">
+                    <img src="assets/images/options.png" style="width: auto; height:100%;" class="slide-btn" onclick="togglSideBar()">
+        </div>
+        <div class="logo">
+            <img src="assets/images/flipkart.png" height="30px" width="100px">
+        </div>
+        <div class="navbar">
+            <nav class="nav">
+                <ul>
+                    <li>Chirag</li>
+                    <li>More</li>
+                    <li>Cart</li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="slidebar" id="slidebarid">
+            <ul class="sidebar-items">
+                <li>Home </li>
+                <li>Men's Clothing</li>
+                <li>Women's Clothing</li>
+                <li>Electronics</li>
+                <li>Furniture Items</li>
+            </ul>
+    </div>
+
+
+    <div class="opsn-bar">
+        <div class="obitems">
+            <ul>
+                <li>Electronics</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Home & Furniture</li>
+                <li>Offer Zone</li>
+                <li>Electronics</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Home & Furniture</li>
+                <li>Offer Zone</li>
+                <li>Men</li>
+                <li>Women</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <img src="assets/images/gadgets.png" height="100%" width="100%">
+        </div>
+        <div class="below">
+            <div class="items">
+                <div class="items-header">
+                    <h3 style=" float: left; padding: 0 0 0 10px;"> Deals of the day</h3>
+                    <button type="button" class="button-VA">View All</button>
+                </div>
+                <div class="items-div">
+                    <div class="DDitems">
+                        <div class="item-image">
+                            <a href="item-page.html">
+                                <img src="assets/images/item1.jpeg" height="100%" width="100%">
+                            </a>
+                            <div class="overlay">
+                                <div class="text">Add to cart</div>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <p>Mens Footwear</p>
+                        </div>
+                        <div class="item-off">
+                            <p>80% off</p>
+                        </div>
+                        <div class="item-brands">
+                            <p> Addidas, Wragler,fcuk etc.</p>
+                        </div>
+                    </div>
+                    <div class="DDitems">
+                        <div class="item-image">
+                            <img src="assets/images/item2.jpg" height="100%" width="100%">
+                            <div class="overlay">
+                                <div class="text">Add to cart</div>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <p>Adiddas,Wrangler and more</p>
+                        </div>
+                        <div class="item-off">
+                            <p>80% off</p>
+                        </div>
+                        <div class="item-brands">
+                            <p> Addidas, Wragler,fcuk etc.</p>
+                        </div>
+                    </div>
+                    <div class="DDitems">
+                        <div class="item-image">
+                            <img src="assets/images/item3.jpeg" height="100%" width="100%">
+                            <div class="overlay">
+                                <div class="text">Add to cart</div>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <p>Headphones and Speakers</p>
+                        </div>
+                        <div class="item-off">
+                            <p>80% off</p>
+                        </div>
+                        <div class="item-brands">
+                            <p> Addidas, Wragler,fcuk etc.</p>
+                        </div>
+                    </div>
+                    <div class="DDitems">
+                        <div class="item-image">
+                            <img src="assets/images/item2.jpg" height="100%" width="100%">
+                            <div class="overlay">
+                                <div class="text">Add to cart</div>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <p>Bata, Hush puppies etc</p>
+                        </div>
+                        <div class="item-off">
+                            <p>80% off</p>
+                        </div>
+                        <div class="item-brands">
+                            <p> Addidas, Wragler,fcuk etc.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="offer">
+                <img src="assets/images/offer.jpg" height="100%" width="100%">
+            </div>
+        </div>
+        <div class="special-offers">
+            <div class="so">
+                <img src="assets/images/so1.png" height="100%" width="100%">
+            </div>
+            <div class="so">
+                <img src="assets/images/so2.png" height="100%" width="100%">
+            </div>
+            <div class="so">
+                <img src="assets/images/so3.png" height="100%" width="100%">
+            </div>
+        </div>
+        <div class="HRM">
+            <div class="HRM-header">
+                <h3 style="float: left"> High RAM Phones</h3>
+                <button type="button" class="button" style="margin-right: 40px"> View All</button>
+            </div>
+            <div class="phones">
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+                <div class="phone-div">
+                    <div class="phone-image">
+                        <img src="assets/images/Phone.jpg" width="90%">
+                    </div>
+                    <div class="phone-details">
+                        <p> Asus Zenfone mac pro m1</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="top">
+            <div class="left-foot">
+                <div class="under-foot">
+                    <p class="ul-headings">About</p>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>About US</li>
+                        <li>Flipkart Stories</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="under-foot">
+                    <p class="ul-headings">Help</p>
+                    <ul>
+
+                        <li>Payment</li>
+                        <li>Shipping</li>
+                        <li>FAQ</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="under-foot">
+                    <p class="ul-headings">Policy</p>
+                    <ul>
+
+                        <li>Term of use</li>
+                        <li>Shipping</li>
+                        <li>FAQ</li>
+                        <li>PRIVACY</li>
+                    </ul>
+                </div>
+                <div class="under-foot">
+                    <p class="ul-headings">Social</p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-foot">
+                <div class="rit-foot" style="float: left">
+                    <p style="color: 454d5e; margin: 15px 0 0 0; color:darkgray;">Mail Us :</p>
+                    <p style="color: white">
+                        Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN : U51109KA2012PTC066107
+                        Telephone: 1800 208 9898
+                    </p>
+                </div>
+                <div class="rit-foot">
+                    <p style="color: 454d5e; margin: 15px 0 0 0; color:darkgray;">Registered Office Address:</p>
+                    <p style="color: white">
+                        Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-list">
+                <ul>
+                    <li>Sell on Flipkart</li>
+                    <li>Advertise</li>
+                    <li>Gift Cards</li>
+                    <li>Help Center</li>
+                    <li style="float: right; padding: 0  150px 0 0;">© 2007-2019 Flipkart.com.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
